@@ -1,1 +1,1 @@
-# sprint1-Maquetaci-n-y-php
+# sprint1-Maquetacion-y-php
