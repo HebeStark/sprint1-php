@@ -1,1 +1,1 @@
--Aplicar el uso de clases abstractas en php.
+-Aplicar el uso de clases abstractas e  e interfaces en php.
