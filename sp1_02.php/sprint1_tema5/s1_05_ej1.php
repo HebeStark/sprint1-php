@@ -1,30 +1,24 @@
 <?php
-abstract class Animal{
-    abstract protected function habla();
-
-    public function describe(){
-        echo "Es un animal\n";
-    }
+interface Animal{
+    public function hablar();
 }
     
-class Perro extends Animal {
-    public function habla(){
-        echo "El perro comienza a ladrar, guau guau...\n";
+class Perro implements Animal {
+    public function hablar(){
+        echo "Guau guau...\n";
     }
     }
-class Gato extends Animal {
-    public function habla(){
-        echo "El gato comienza a maullar, miau miau..../n";
+class Gato implements Animal {
+    public function hablar(){
+        echo "Miau miau..../n";
     }
 }
 
     $caniche = new Perro();
-    $caniche ->describe();
-    $caniche ->habla();    
+    echo $caniche ->hablar();    
 
-    $siames = new Gato();
-    $siames ->describe();
-    $siames ->habla();
+    $siames = new Gato(); 
+    echo $siames ->hablar();
 
 
 ?> 
