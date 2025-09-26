@@ -1,0 +1,2 @@
+-Creo y utilizo arrays.
+-Operar con y entre arrays.
