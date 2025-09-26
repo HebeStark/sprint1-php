@@ -31,7 +31,7 @@ echo ("La suma de todas las variables es: " . ($X + $Y + $N + $M) ."<br>");
 //El producto de todas las variables
 echo ("El producto de todas las variables es: " . ($X * $Y * $N * $M) ."<br>"); 
 
-function operacion($num1,$num2,$op){
+function operacion(int|float $num1, int|float $num2, String $op): int|float {
     switch ($op) {
         case 'suma':
             return $num1 + $num2;
