@@ -1,15 +1,18 @@
 <?php
 function buscarCaracter(array $nombres, string $caracter): bool {
-    foreach ($nombres as $nombre) {//recorrere el array buscando el carecter que le indique con strpos
-        if (strpos($nombre, $caracter) === false) {
-            return false; //si una palabra no lo tiene me dovolvera false
+  foreach($nombres as $nombre){
+    $letras = str_split($nombre);
+        if(!in_array($caracter,$letras)) {
+        return false;
         }
     }
-    return true; //si todas lo tienen me dovolvera true
+  
+        return true;
 }
+   
 
-$nombres = ["Anna", "Juan", "Julia", "María"];
-$caracter = "a";
+$nombres = ["Miguel", "Julian", "Laura"];
+$caracter = "u";
 
 if (buscarCaracter($nombres, $caracter)) {
     echo "El carácter '$caracter' está presente en todos los nombres.";
