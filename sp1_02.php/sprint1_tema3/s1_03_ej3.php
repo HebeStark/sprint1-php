@@ -5,11 +5,9 @@ function buscarCaracter(array $nombres, string $caracter): bool {
         if(!in_array($caracter,$letras)) {
         return false;
         }
-    }
-  
+    }  
         return true;
-}
-   
+}   
 
 $nombres = ["Miguel", "Julian", "Laura"];
 $caracter = "u";
