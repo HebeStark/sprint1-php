@@ -17,5 +17,5 @@ if(buscarCaracter($nombres,$caracter) == true){
 }else {
     echo "No todos los nombres contienen la letra: " . $caracter;
 }
- ;
+ 
 ?>
