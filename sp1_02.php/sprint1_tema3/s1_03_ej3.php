@@ -2,9 +2,9 @@
 function buscarCaracter(array $nombres, string $caracter) {
   foreach($nombres as $nombre){   
         if(!str_contains($nombre,$caracter)) {
-            return "false";  
+            return false;  
         }else {
-            return "true";
+            return true;
         }          
 }   
 }
