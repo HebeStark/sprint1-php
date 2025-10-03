@@ -6,19 +6,13 @@ Permita ingresar un nombre y un email.
 
 Valide los datos en el servidor usando PHP.
 
-Muestre errores si los campos están vacíos o mal formateados.
-
 Guarde algunos valores en variables de sesión ($_SESSION).
-
-Permita cerrar la sesión desde un archivo independiente.
 
 📂 Archivos incluidos
 
-form.php → Contiene el formulario y muestra errores si los hay.
+form.php → Contiene el formulario.
 
 procesar.php → Recibe los datos, valida y guarda en la sesión.
-
-cierre.php → Cierra la sesión y borra los datos.
 
 ⚙️ Requisitos
 
