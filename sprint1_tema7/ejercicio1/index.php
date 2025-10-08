@@ -1,6 +1,6 @@
 <?php
 function division(int $num1, int $num2){
-    if (!$num2){
+  if ($num2 == 0){
     throw new Exception("No puedes dividir por cero");
     }
     return $num1 / $num2;
