@@ -21,10 +21,10 @@ class NumberCheckerTest extends TestCase{
     public function test_es_positivo(){
        
         $comprobar = new NumberChecker(6);
-        $this->assertTrue($comprobar->isPositive(), "El número 6 debería ser positivo");
+        $this->assertTrue($comprobar->isPositive());
 
         $comprobar = new NumberChecker(-2);
-        $this->assertFalse($comprobar->isPositive(), "El número -2 no debería ser positivo");
+        $this->assertFalse($comprobar->isPositive());
     }
 }
 ?>
