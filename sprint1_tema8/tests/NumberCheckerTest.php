@@ -1,0 +1,32 @@
+<?php
+use Hebe\Sprint1tema8\NumberChecker;
+use PHPUnit\Framework\TestCase;
+
+require __DIR__ .'/../vendor/autoload.php';
+
+
+// Incluimos la clase que queremos probar
+require_once __DIR__ . '/../src/NumberChecker.php';
+
+class NumberCheckerTest extends TestCase{
+    public function test_es_par(){
+       
+        $comprobar = new NumberChecker(4);
+        $this->assertTrue($comprobar->isEven(), "El número 4 debería ser par");
+
+        $comprobar = new NumberChecker(5);
+        $this->assertFalse($comprobar->isEven(), "El número 5 no debería ser par");
+    }
+
+    public function test_es_positivo(){
+       
+        $comprobar = new NumberChecker(6);
+        $this->assertTrue($comprobar->isPositive(), "El número 6 debería ser positivo");
+
+        $comprobar = new NumberChecker(-2);
+        $this->assertFalse($comprobar->isPositive(), "El número -2 no debería ser positivo");
+    }
+}
+?>
+
+?>
