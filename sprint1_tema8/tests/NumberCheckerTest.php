@@ -12,10 +12,10 @@ class NumberCheckerTest extends TestCase{
     public function test_es_par(){
        
         $comprobar = new NumberChecker(4);
-        $this->assertTrue($comprobar->isEven(), "El número 4 debería ser par");
+        $this->assertTrue($comprobar->isEven());
 
         $comprobar = new NumberChecker(5);
-        $this->assertFalse($comprobar->isEven(), "El número 5 no debería ser par");
+        $this->assertFalse($comprobar->isEven());
     }
 
     public function test_es_positivo(){
