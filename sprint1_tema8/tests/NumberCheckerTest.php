@@ -2,10 +2,6 @@
 use Hebe\Sprint1tema8\NumberChecker;
 use PHPUnit\Framework\TestCase;
 
-require __DIR__ .'/../vendor/autoload.php';
-
-
-// Incluimos la clase que queremos probar
 require_once __DIR__ . '/../src/NumberChecker.php';
 
 class NumberCheckerTest extends TestCase{
