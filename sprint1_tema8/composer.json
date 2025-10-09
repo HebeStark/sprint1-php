@@ -1,0 +1,18 @@
+{
+    "name": "hebe/sprint1_tema8",
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hebe\\Sprint1Tema8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hebe Stark",
+            "email": "hebe_s@hotmail.com"
+        }
+    ],
+    "require": {}
+}
