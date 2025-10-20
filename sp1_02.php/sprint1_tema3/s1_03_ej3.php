@@ -1,5 +1,5 @@
 <?php
-function buscarCaracter(array $nombres, string $caracter) {
+function buscarCaracter(array $nombres, string $caracter): bool {
   foreach($nombres as $nombre){   
         if(!str_contains($nombre,$caracter)) {
             return false;  
