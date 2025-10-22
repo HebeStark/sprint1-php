@@ -4,7 +4,7 @@ const PRECIO_BASE = 10;
 const MINUTOS_INCLUIDOS = 3;
 const PRECIO_MINUTO_ADICIONAL = 5;
 
-function aPagar(Int $minutos): Int {
+function aPagar(int $minutos): int {
  if($minutos <= MINUTOS_INCLUIDOS){
   return PRECIO_BASE;
   } else {
