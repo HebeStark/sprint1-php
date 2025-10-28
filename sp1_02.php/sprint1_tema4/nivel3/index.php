@@ -21,7 +21,7 @@ $peliculas2 = [
 $cine1 = new Cine("Cinesa Diagonal", "Barcelona", $peliculas1);
 $cine2 = new Cine("Mooby Glories: Mooby Cines", "Barcelona", $peliculas2);
 
-$cines = [$cine1, $cine2];require 'index.html';
+$cines = [$cine1, $cine2];
 
 function buscarPorDirector(string $director): array {
     global $cines;
