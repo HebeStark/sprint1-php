@@ -2,9 +2,9 @@
 declare(strict_types = 1);
 
 class PockerDice {
-    private static array $caras_dado = ["AS","K","Q","J","7","8"];
-    private string $figura = "";
-    private static int $tirada = 0;
+    private static $caras_dado = ["AS","K","Q","J","7","8"];
+    private $figura = "";
+    private static $tirada = 0;
 
 
 public function echar_dado(): String {
