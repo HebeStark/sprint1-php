@@ -38,5 +38,7 @@ class Cine {
         }
         return $masLarga;
     }
+
+    
 }
 ?>

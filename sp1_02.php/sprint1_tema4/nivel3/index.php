@@ -37,4 +37,9 @@ function buscarPorDirector(string $director): array {
     }
     return $resultados;
 }
+
+echo "La pelicula mas larga en cinesa diagonal: " . $cine1->peliculaMasLarga() . "\n";
+echo "La pelicula mas larga en mooby glories: " . $cine2->peliculaMasLarga() . "\n";
+echo "Las peliculas disponibles en cinesa: \n";
+echo $cine1->verPeliculas() . "\n";
 ?>
