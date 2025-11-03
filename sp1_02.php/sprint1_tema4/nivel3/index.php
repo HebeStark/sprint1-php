@@ -5,16 +5,16 @@ require_once 'Peliculas.php';
 
 // Películas Cine 1
 $peliculas1 = [
-    new Peliculas("Black Phone 2", "Scott Derrickson", 113),
-    new Peliculas("Chainsaw Man - El Arco de Reze", "Tatsuya Nakazaki", 120),
-    new Peliculas("Tom y Jerry: Aventura en el Tiempo", "Zhang Gang", 90)
+    new Pelicula("Black Phone 2", "Scott Derrickson", 113),
+    new Pelicula("Chainsaw Man - El Arco de Reze", "Tatsuya Nakazaki", 120),
+    new Pelicula("Tom y Jerry: Aventura en el Tiempo", "Zhang Gang", 90)
 ];
 
 // Películas Cine 2
 $peliculas2 = [
-    new Peliculas("Una Batalla Tras Otra", "Paul Thomas Anderson", 97),
-    new Peliculas("Black Phone 2", "Scott Derrickson", 113),
-    new Peliculas("Casa de Brujas", "Luca Guadagnino", 99)
+    new Pelicula("Una Batalla Tras Otra", "Paul Thomas Anderson", 97),
+    new Pelicula("Black Phone 2", "Scott Derrickson", 113),
+    new Pelicula("Casa de Brujas", "Luca Guadagnino", 99)
 ];
 
 // Crear cines

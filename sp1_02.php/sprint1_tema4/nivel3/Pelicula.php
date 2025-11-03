@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-class Peliculas {
+class Pelicula {
     private $titulo;
     private $director;
     private $duracion; 

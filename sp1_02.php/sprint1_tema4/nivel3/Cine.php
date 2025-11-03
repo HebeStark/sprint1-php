@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-require_once 'Peliculas.php';
+require_once 'Pelicula.php';
 
 class Cine {
     private $nombre;
@@ -28,7 +28,7 @@ class Cine {
         }
     }
 
-    public function peliculaMasLarga(): ?Peliculas {
+    public function peliculaMasLarga(): ?Pelicula {
         if (empty($this->listaPeliculas)) return null;
         $masLarga = $this->listaPeliculas[0];
         foreach ($this->listaPeliculas as $pelicula) {
